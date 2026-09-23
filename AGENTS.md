@@ -36,6 +36,16 @@
   `worker` 显式指定相同模型和推理强度，并传递已批准方案及执行约束。无法使用指定
   模型时报告阻塞，不静默替换模型。专项知识、编译、CR 检查标准及修复授权仍遵从所在项目规则。
 
+## Codex 配置同步
+
+- 个人配置同步仓库：`https://github.com/lovetian0910/codex-config.git`；本机检出目录：
+  `C:\Users\jwkuang\codex-config`。在其他电脑先核实检出目录。
+- 用户要求同步、提交或推送 Codex 个人规则 / 代理配置时，默认使用该仓库，无需重复询问地址；
+  同步方向与推送范围沿用当前会话授权，记住地址不代表自动推送。
+- 仅同步 `~/.codex/AGENTS.md`、`~/.codex/agents/sol-worker.toml` 和
+  `~/.codex/agents/luna-worker.toml` 到仓库对应路径；本机 `config.toml`、认证信息、插件、
+  缓存及项目专属规则不入库。发布 / 安装步骤见仓库 `README.md`。
+
 <!-- CODEGRAPH_START -->
 ## 代码检索
 
