@@ -1,6 +1,6 @@
 name = "sol-worker"
 description = "执行已经人工批准、目标、范围和验收明确的开发计划。"
-model = "gpt-5.6-sol"
+model = "gpt-6-sol"
 model_reasoning_effort = "medium"
 
 developer_instructions = """
